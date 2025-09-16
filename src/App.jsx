@@ -1,11 +1,18 @@
-import React from 'react';
-import Hero from './Hero';
+import React from "react";
+import Hero from "./Hero";
+import Banner from "./Banner";
+
 
 const App = () => {
   return (
     <div>
       <h1> Hello world </h1>
-      <Hero/>
+      <div className="mb-30">
+        <Hero />
+      </div>
+      <div>
+        <Banner/>
+      </div>
     </div>
   );
 };
